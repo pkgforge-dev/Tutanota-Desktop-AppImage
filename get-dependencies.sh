@@ -7,7 +7,12 @@ ARCH=$(uname -m)
 echo "Downloading and extracting Tutanota tar file..."
 echo "---------------------------------------------------------------"
 
-TAR_LINK=$(curl -s https://api.github.com/repos/tutao/tutanota/releases | jq -r '.[] | select(.name | contains("(Desktop)")) | .assets[] | select(.name | endswith(".tar.gz")) | .browser_download_url' | head -n 1)
+TAR_LINK=$(curl -s https://api.github.com/repos/tutao/tutanota/releases | 
+           grep -oP '"name": "\K[^"]*Desktop[^"]*' | 
+           head -n 1 | 
+           xargs -I {} curl -s https://api.github.com/repos/tutao/tutanota/releases | 
+           grep -oP '"browser_download_url": "\K[^"]*\.tar\.gz' |
+           head -n 1)
 
 if ! wget --retry-connrefused --tries=30 "$TAR_LINK" -O /tmp/tuta.tar.gz 2>/tmp/download.log; then
 	cat /tmp/download.log
