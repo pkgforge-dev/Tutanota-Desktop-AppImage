@@ -19,7 +19,7 @@ if ! wget --retry-connrefused --tries=30 "$TAR_LINK" -O /tmp/tuta.tar.gz 2>/tmp/
 	exit 1
 fi
 
-tar -xvf /tmp/data.tar.xz
+tar -xvf /tmp/tuta.tar.gz
 rm -f /tmp/tuta.tar.gz
 
 mkdir -p ./AppDir/bin
