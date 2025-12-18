@@ -17,4 +17,4 @@ cp -rv /opt/tutanota-desktop/*                                        ./AppDir/b
 cp -v  /usr/share/applications/tutanota-desktop.desktop               ./AppDir
 cp -v  /usr/share/icons/hicolor/512x512/apps/tutanota-desktop.png     ./AppDir/.DirIcon
 
-sed -i 's|^Exec=.*|Exec=tutanota-desktop|' ./AppDir/discord.desktop
+sed -i 's|^Exec=.*|Exec=tutanota-desktop|' ./AppDir/tutanota-desktop.desktop
