@@ -43,6 +43,10 @@ EOF
 
 echo "$VERSION" > ~/version
 
+echo "Installing package dependencies..."
+echo "---------------------------------------------------------------"
+pacman -Syu --noconfirm nspr
+
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
