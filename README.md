@@ -17,11 +17,11 @@ AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it
 
 It is possible that this appimage may fail to work with appimagelauncher, I recommend these alternatives instead: 
 
-* [AM](https://github.com/ivan-hc/AM) `am -i tutanota` or `appman -i tutanota`
+* [AM](https://github.com/ivan-hc/AM) `am -i tutanota-enhanced` or `appman -i tutanota-enhanced`
 
-* [dbin](https://github.com/xplshn/dbin) `dbin install tutanota.appimage`
+* [dbin](https://github.com/xplshn/dbin) `dbin install tutanota-enhanced.appimage`
 
-* [soar](https://github.com/pkgforge/soar) `soar install tutanota`
+* [soar](https://github.com/pkgforge/soar) `soar install tutanota-enhanced`
 
 This appimage works without fuse2 as it can use fuse3 instead, it can also work without fuse at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
 
