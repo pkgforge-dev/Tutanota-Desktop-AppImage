@@ -25,8 +25,16 @@ It is possible that this appimage may fail to work with appimagelauncher, I reco
 
 This appimage works without fuse2 as it can use fuse3 instead, it can also work without fuse at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
 
+## Screenshot of Tutanota-Desktop-AppImage-Enhanced working on Ubuntu 14.04 LTS VM
 <details>
-  <summary><b><i>raison d'être</i></b></summary>
+  <summary><b><i>Click to preview</i></b></summary>
+    <img src="https://github.com/user-attachments/assets/da92c8bc-57fc-4f0f-9bef-595dc8bf182f" alt="Inspiration Image">
+  </a>
+</details>
+
+## Screenshot on why AppImage is preferred for low-storage devices
+<details>
+  <summary><b><i>Click to preview</i></b></summary>
     <img src="https://github.com/user-attachments/assets/29576c50-b39c-46c3-8c16-a54999438646" alt="Inspiration Image">
   </a>
 </details>
