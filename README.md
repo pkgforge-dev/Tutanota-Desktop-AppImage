@@ -25,7 +25,8 @@ Enhanced AppImage compared to the upstream one, made using [sharun](https://gith
 This AppImage doesn't require FUSE to run at all, thanks to the [uruntime](https://github.com/VHSgunzo/uruntime).
 
 This AppImage is also supplied with the seamless self-updater by default, so any updates to this application won't be missed.  
-Self-updater doesn't run if AppImage managers like [am](https://github.com/ivan-hc/AM) or [soar](https://github.com/pkgforge/soar) exist, which manage AppImage integration and updates.
+Self-updater doesn't run if AppImage managers like [am](https://github.com/ivan-hc/AM) or [soar](https://github.com/pkgforge/soar) exist, which manage AppImage integration and updates.  
+There is also a prompt and config for opting-out of self-updates if desired.
 
 <details>
   <summary><b><i>Screenshot of Tutanota Desktop AppImage-Enhanced working on Ubuntu 14.04 LTS VM</i></b></summary>
