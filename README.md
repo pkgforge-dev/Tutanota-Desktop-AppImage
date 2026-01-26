@@ -1,3 +1,5 @@
+<div align="center">
+
 # Tutanota Desktop AppImage-Enhanced 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Tutanota-Desktop-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Tutanota-Desktop-AppImage-Enhanced/releases/latest)
@@ -8,7 +10,11 @@
   <img src="https://raw.githubusercontent.com/tutao/tutanota/refs/heads/master/resources/desktop-icons/icon/512.png" width="128" />
 </p>
 
-* [Upstream URL](https://github.com/tutao/tutanota)
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Tutanota-Desktop-AppImage-Enhanced/releases/latest) | [Click here](https://github.com/tutao/tutanota) |
+
+</div>
 
 ---
 
