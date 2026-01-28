@@ -4,6 +4,8 @@ set -eu
 
 ARCH=$(uname -m)
 
+pacman -Syu --noconfirm sqlcipher
+
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano ! llvm-libs
