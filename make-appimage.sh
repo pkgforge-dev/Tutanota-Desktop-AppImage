@@ -13,7 +13,9 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun /opt/tutanota-desktop/* \
+mkdir -p ./AppDir/bin
+cp -rv /opt/tutanota-desktop/* ./AppDir/bin/
+quick-sharun ./AppDir/bin/* \
              /usr/lib/libsecret*
 
 # This is hardcoded to look into /usr/bin/ldd and causes a crash
