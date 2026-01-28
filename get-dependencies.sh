@@ -8,4 +8,4 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-make-aur-package tutanota-desktop-bin
+make-aur-package tutanota-desktop
