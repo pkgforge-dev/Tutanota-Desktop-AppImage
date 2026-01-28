@@ -17,7 +17,8 @@ export DEPLOY_VULKAN=1
 mkdir -p ./AppDir/bin
 cp -rv /opt/tutanota-desktop/* ./AppDir/bin/
 quick-sharun ./AppDir/bin/* \
-             /usr/lib/libsecret*
+             /usr/lib/libsecret* \
+             /usr/lib/libsqlcipher*
 
 # This is hardcoded to look into /usr/bin/ldd and causes a crash
 # looks like we only need to patch this path away, it seems to work without it
