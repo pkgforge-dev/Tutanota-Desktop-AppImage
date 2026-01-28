@@ -7,11 +7,13 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook:fix-namespaces.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
+export ICON=/usr/share/icons/hicolor/512x512/apps/tutanota-desktop.png
+export DESKTOP=/usr/share/applications/tutanota-desktop.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/* \
+quick-sharun /opt/tutanota-desktop/* \
              /usr/lib/libsecret*
 
 # This is hardcoded to look into /usr/bin/ldd and causes a crash
