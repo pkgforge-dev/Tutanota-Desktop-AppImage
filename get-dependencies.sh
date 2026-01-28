@@ -8,4 +8,4 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-make-aur-package tutanota-desktop
+PRE_BUILD_CMDS='sed "s/sha256sums=(\*/sha256sums=('SKIP'/g" ./PKGBUILD' make-aur-package tutanota-desktop
